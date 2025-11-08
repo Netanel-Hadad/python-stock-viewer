@@ -15,16 +15,10 @@ def main():
 
    # ---------- handling user input ---------- #
 
-   #key = input("enter stock symbol: ")
-   #startDate = input("enter start date (format must be 'yyyy/mm/dd'):")
-   #endDate = input("enter end date (format must be 'yyyy/mm/dd'):")
-   #sample = input("enter sample type (D/W/M/Y):")
-
-   # TEMP VALUES
-   key = 'GOOG'
-   startDate = '2020/01/01'
-   endDate = '2026/01/01'
-   sample = 'W'
+   key = input("enter stock symbol: ")
+   startDate = input("enter start date (format must be 'yyyy/mm/dd'):")
+   endDate = input("enter end date (format must be 'yyyy/mm/dd'):")
+   sample = input("enter sample type (D/W/M/Y):")
 
    # ---------- data and calculations ---------- #
 
@@ -75,4 +69,5 @@ def main():
    sw.openStockerViewerWindow(data, key, startDate, endDate, sample, True, True)
 
 if __name__ == "__main__":
+
    main()
