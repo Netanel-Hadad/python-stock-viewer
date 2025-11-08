@@ -1,6 +1,8 @@
 # python-stock-viewer
 Simple python stock viewer using NumPy, Panads and MatPlotLib.
+
 View historical stock data and view it as a candle stick chart for technical analysis.
+
 Historical data is gatherd using pandas datareader library.
 
 ## Installation
