@@ -91,7 +91,7 @@ def main():
          exportDataToCSV(getStockData(key, startDate, endDate, sample), CSV_EXPORTS_FOLDER_NAME+"/"+key+".csv")
       elif cmd == "help":# print commands list
          print("commands:\n"
-         "'osw' for opening stocker viewer window\n"
+         "'osw' for opening stock viewer window\n"
          "'print' for printing stock historical data table\n"
          "'csv' to export stock historical info into a csv file\n"
          "'exit' for closing the program")
@@ -102,3 +102,4 @@ def main():
 
 if __name__ == "__main__":
    main()
+
