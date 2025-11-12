@@ -27,7 +27,7 @@ Historical data is gatherd using pandas datareader library.
 
 * ## Usage
 * Run main.py
-* type 'help' for viewing all available commands
+* Type 'help' for viewing all available commands
 
 * ## Examples
 <img width="2560" height="1327" alt="Stock_Viewer1" src="https://github.com/user-attachments/assets/f5377781-92ab-478b-af5c-5a65ea4c0924" />
