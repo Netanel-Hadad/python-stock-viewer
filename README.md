@@ -20,15 +20,14 @@ Historical data is gatherd using pandas datareader library.
 
 * ## Features:
 * View stock prices within a selected range of dates
-* Candle stick chart view for better graph technical analysis
+* Candle stick chart view for technical analysis
 * Volume chart
 * Change between day, week, month and year views
+* Export stock historical data into a csv file
 
 * ## Usage
 * Run main.py
-* Instert stock symbol
-* Insert starting date in the requierd format
-* Insert end date in the requierd format
+* type 'help' for viewing all available commands
 
 * ## Examples
 <img width="2560" height="1327" alt="Stock_Viewer1" src="https://github.com/user-attachments/assets/f5377781-92ab-478b-af5c-5a65ea4c0924" />
