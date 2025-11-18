@@ -1,33 +1,24 @@
 # python-stock-viewer
-Simple python stock viewer using NumPy, Panads and MatPlotLib.
+A Client-Server application for analyzing and visualizing historical stock market data.
+The project demonstrates a decoupling of data processing (Backend) and data visualization (Frontend).
 
-View historical stock data as a candle stick chart for technical analysis.
-
-Historical data is gatherd using pandas datareader library.
+* ## Features:
+* **Client-Server Architecture:** Separation of concerns between the API provider and the visualization client.
+* **REST API:** Built with **Flask**, serving processed financial data in JSON format.
+* **Data Analysis:** Utilizes **Pandas** and **NumPy** for calculating 52-week High/Low and ROI.
+* **Visualization:** Interactive candlestick charts using **Matplotlib**.
+* **Dynamic Fetching:** Retrieves real-time/historical data using `pandas-datareader`.
 
 ## Installation
 * Clone the project repository or download the source code
-* Install (or make sure you have):
-
-  ```
-  pip install numpy
-  pip install pandas
-  pip install matplotlib
-  pip install pandas-datareader
-  ```
-  
-* Run main.py
-
-* ## Features:
-* View stock prices within a selected range of dates
-* Candle stick chart view for technical analysis
-* Volume chart
-* Change between day, week, month and year views
-* Export stock historical data into a csv file
+* Install dependencies:
+pip install -r requirements.txt
 
 * ## Usage
-* Run main.py
-* Type 'help' for viewing all available commands
+* Since this is a client-server application, you need to run the server first.
+Start the server from server.py. The server will run on http://127.0.0.1:5000
+* Run the client from client.py.
+* Follow on screen instructions.
 
 * ## Examples
 <img width="522" height="246" alt="Screenshot 2025-11-12 224838" src="https://github.com/user-attachments/assets/a576b4ac-b85c-428c-a87e-132a73dab09a" />
